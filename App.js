@@ -5,11 +5,7 @@ import Header from './src/components/header';
 export default class App extends React.Component {
   render() {
     return ( 
-      <View style={{
-          flex: 1,
-          backgroundColor: '#fff',
-          alignItems: 'center',
-          justifyContent: 'center'}}>
+      <View>
           <Header/>
           <Text>Hello World !!</Text>
       </View>
