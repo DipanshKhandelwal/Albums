@@ -8,7 +8,6 @@ export default class App extends React.Component {
     return ( 
       <View style={{ flex:1 }} >
           <Header name={'Albums'}/>
-          <Text>Hello World !!</Text>
           <AlbumList name={'Albums'}/>
       </View>
     );
